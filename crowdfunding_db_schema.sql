@@ -40,7 +40,7 @@ CREATE TABLE "Campaign" (
     "Backers_count" INT   NOT NULL,
     "Country" varchar(10)   NOT NULL,
     "Currency" varchar(10)   NOT NULL,
-    "Launched_date" date   NOT NULL,
+    "Launch_date" date   NOT NULL,
     "End_date" date   NOT NULL,
     "Category_id" varchar(10)   NOT NULL,
     "Subcategory_id" varchar(30)   NOT NULL,

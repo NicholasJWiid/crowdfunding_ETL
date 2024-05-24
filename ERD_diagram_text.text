@@ -28,7 +28,7 @@ Outcome varchar(50)
 Backers_count INT
 Country varchar(10)
 Currency varchar(10)
-Launched_date date
+Launch_date date
 End_date date
 Category_id varchar(10) FK >- Category.Category_id
 Subcategory_id varchar(30) FK >- Subcategory.Subcategory_id
